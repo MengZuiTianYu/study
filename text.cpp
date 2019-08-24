@@ -18,14 +18,6 @@ int main()
     std::cout << "out -- i:" << i<<std::endl;
 
     std::cout << "inside i++:"<<std::endl;
-    for(i=0; i<5;) {
-        std::cout << "in -- i:" << i++<<std::endl;
-    }
-    std::cout << "out -- i:" << i<<std::endl;
+ 
 
-    std::cout << "inside ++i:"<<std::endl;
-    for(i=0; i<5;) {
-        std::cout << "in -- i:" << ++i<<std::endl;
-    }
-    std::cout << "out -- i:" << i<<std::endl;
 }
